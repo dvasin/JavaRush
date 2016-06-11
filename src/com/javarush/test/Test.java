@@ -6,7 +6,7 @@ package com.javarush.test;
 public class Test {
 
     public static void main(String[] args) {
-        int height = 3;
+        /*int height = 3;
         int width = 4;
 
 
@@ -47,8 +47,9 @@ public class Test {
             // Переход на следующую строку
             System.out.println();
         }
-
-
+*/
+        Integer i = null;
+        System.out.println(i);
     }
 }
 
