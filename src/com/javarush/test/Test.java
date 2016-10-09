@@ -1,5 +1,8 @@
 package com.javarush.test;
 
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
+
 /**
  * Created by denis on 09.06.16.
  */
@@ -48,8 +51,8 @@ public class Test {
             System.out.println();
         }
 */
-        Integer i = null;
-        System.out.println(i);
+
+        System.out.println(new SimpleDateFormat("d.MM.YYYY").format(Calendar.getInstance().getTime()));
     }
 }
 
